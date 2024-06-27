@@ -57,7 +57,7 @@
       let fruit = fruits.filter((a) => {
         if (a.includes(input.value)) {
         }
-        return a.includes(input.value);
+        return a.includes(input.value.toLowwercase());
       });
 
       fruit.map((a) => {
